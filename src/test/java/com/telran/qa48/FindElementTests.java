@@ -47,6 +47,7 @@ public class FindElementTests {
     public void findElementBySimpleLocators(){
         //by id
         driver.findElement(By.id("root"));
+
         //by class name
         driver.findElement(By.className("mobile-header"));
     }
